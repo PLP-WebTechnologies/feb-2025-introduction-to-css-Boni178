@@ -1,0 +1,137 @@
+html, body {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+#header {
+    background-color: rgb(3, 139, 139);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 40px;
+    
+
+}
+
+#header h1 {
+    color: white;
+    font-size:100px;
+    font-style:oblique;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#header h1 {
+    animation: fadeIn 6s ease-in-out;
+}
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 450px; 
+    height: 450px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#About {
+    background-color: rgb(200, 245, 245);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#About h2 {
+    font-style: oblique;
+    text-align: center;
+}
+
+#About p {
+    font-style: initial;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#Ingredients {
+    background-color:rgb(200, 245, 245)
+    ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#Ingredients h2 {
+    font-style: oblique;
+    text-align: center;
+}
+.ingredients-list{
+    list-style-type: none;
+    padding: 0;
+}
+input[type="checkbox"] {
+    accent-color: rgb(3, 139, 139);
+}
+
+#Instructions {
+    background-color: rgb(200, 245, 245);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+#Instructions h2 {
+    font-style: oblique;
+    text-align: center;
+}
+#Instructions ul {
+    
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#serving {
+    background-color: rgb(200, 245, 245);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+#serving h2 {
+    font-style: oblique;
+    text-align: center;
+}
+#serving p {
+    font-style: initial;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.spacer {
+    height: 50px;}
+
+footer {
+    background-color: rgb(3, 139, 139);
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+}
